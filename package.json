@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dot-env": "^0.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.5"
+  },
+  "name": "nafdac-backend",
+  "description": "The Backend Server for the NAFDAC  Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0tuedon/nafdac-backend.git"
+  },
+  "keywords": [
+    "NAFDAC",
+    "DRUGS",
+    "VERIFY"
+  ],
+  "author": "Tuedon Tuoyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0tuedon/nafdac-backend/issues"
+  },
+  "homepage": "https://github.com/0tuedon/nafdac-backend#readme"
+}
