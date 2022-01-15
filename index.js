@@ -23,6 +23,7 @@ app.use("/",apiRoute)
 const corsOrigins = {
     origin: ['http://localhost:3000','https://nafdac.netlify.app']
 }
+app.use(cors(corsOrigins))
 
 app.get("/",(req,res)=>{
     res.render("index")
