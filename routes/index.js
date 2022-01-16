@@ -19,6 +19,7 @@ Router.get("/product", async (req,res)=>{
     
 })
 Router.get("/products", async (req,res)=>{
+    res.header("Access-Control-Allow-Origin", "*")
     try
     {
         const foundProduct = await Product.find({})

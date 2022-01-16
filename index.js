@@ -21,7 +21,7 @@ app.set('view engine','ejs')
 app.use(bodyparser.json())
 app.use("/",apiRoute)
 const corsOrigins = {
-    origin: ['http://localhost:3000','https://nafdac.netlify.app']
+    origin: ['http://localhost:3000', 'https://localhost:3000','https://nafdac.netlify.app']
 }
 app.use(cors(corsOrigins))
 
